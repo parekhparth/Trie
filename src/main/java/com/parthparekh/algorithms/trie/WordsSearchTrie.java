@@ -137,7 +137,6 @@ public class WordsSearchTrie implements Trie {
         rootNode = trieMap.get(wordString.length());
         char[] wordChars = wordString.toCharArray();
         Map<TrieNode, StringBuffer> trieNodeStringBufferMap = new HashMap<TrieNode, StringBuffer>();
-        Set<String> validWords = new HashSet<String>();
         for(int index=0; index<wordChars.length; index++) {
             char charValue = wordChars[index];
             trieNodeStringBufferMap = updateTrieNodeMap(index, charValue, rootNode, trieNodeStringBufferMap);
