@@ -26,3 +26,34 @@ java -cp Trie.jar com.parthparekh.algorithms.trie.WordsSearchTrie /tmp/wordlist.
 
 # Trie
 Above code uses trie to search for words. More inforamtion on trie can be found <a href='http://en.wikipedia.org/wiki/Trie'>here</a>
+
+## Example
+
+using word list from above link and searching for words using a?????o???s pattern outputs following:
+
+
+Total 11 matching words found for: a?????o???s
+
+
+1. albatrosses
+
+2. antibiotics
+
+3. apostrophes
+
+4. anthologies
+
+5. astronomers
+
+6. allotropies
+
+7. audiologies
+
+8. antiphonies
+
+9. accessories
+
+10. antiprotons
+
+11. astrologers
+
