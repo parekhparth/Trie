@@ -1,10 +1,11 @@
 package com.parthparekh.algorithms.trie;
 
+import java.io.IOException;
+
 import junit.framework.Assert;
+
 import org.junit.Before;
 import org.junit.Test;
-
-import java.io.IOException;
 
 
 /**
@@ -29,10 +30,10 @@ public class WordsSearchTrieTest extends WordsSearchTrie {
 
 	@Test
 	public void searchStringTest() {
-		Assert.assertTrue(wordsSearchTrie.searchString("parth"));
-		Assert.assertFalse(wordsSearchTrie.searchString("blahblah"));
-		Assert.assertFalse(wordsSearchTrie.searchString("par"));
-		Assert.assertTrue(wordsSearchTrie.searchString("part"));
+		Assert.assertTrue(wordsSearchTrie.hasString("parth"));
+		Assert.assertFalse(wordsSearchTrie.hasString("blahblah"));
+		Assert.assertFalse(wordsSearchTrie.hasString("par"));
+		Assert.assertTrue(wordsSearchTrie.hasString("part"));
 	}
 
     @Test
@@ -52,7 +53,7 @@ public class WordsSearchTrieTest extends WordsSearchTrie {
     public void loadTrieTest() throws IOException {
         loadTrie();
         Assert.assertEquals(5, wordsSearchTrie.trieMap.keySet().size());
-        Assert.assertTrue(wordsSearchTrie.searchString("abcde"));
+        Assert.assertTrue(wordsSearchTrie.hasString("abcde"));
     }
 
     @Test

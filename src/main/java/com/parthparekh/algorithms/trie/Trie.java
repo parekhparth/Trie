@@ -31,7 +31,7 @@ public interface Trie {
 	 * @param wordString - string you want to search from Trie
 	 * @return returns true if the search was successful, false otherwise 
 	 */
-	public boolean searchString(String wordString);
+	public boolean hasString(String wordString);
 	
 	/*
 	 * returns set of all the characters from trie that follows given prefixString

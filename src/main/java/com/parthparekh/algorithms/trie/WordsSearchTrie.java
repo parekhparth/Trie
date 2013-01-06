@@ -1,7 +1,14 @@
 package com.parthparekh.algorithms.trie;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Implementation of Trie used for searching words from dictionary with wild card (?) characters
@@ -56,7 +63,7 @@ public class WordsSearchTrie implements Trie {
     }
 
     @Override
-    public boolean searchString(String wordString) {
+    public boolean hasString(String wordString) {
         if (wordString.isEmpty()) {
             return false;
         }
@@ -103,6 +110,7 @@ public class WordsSearchTrie implements Trie {
                 word = word.replaceAll("\\s", "").toLowerCase();
                 addString(word);
             }
+            reader.close();
         }
         catch (IOException ioException) {
   			throw ioException;
