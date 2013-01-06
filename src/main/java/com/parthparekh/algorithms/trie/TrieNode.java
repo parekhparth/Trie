@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 /**
- * A node implementation in a simple trie (http://en.wikipedia.org/wiki/Trie)
+ * A node implementation for a simple trie (http://en.wikipedia.org/wiki/Trie)
  * Note: this implementation is not thread safe
  * 
  * @author: Parth Parekh (parthparekh [at] gatech [dot] edu)
