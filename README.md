@@ -50,3 +50,8 @@ Total 11 matching words found for: a?????o???s
 ## Online tool
 
 Above code can be tried online <a href='http://words-search.appspot.com/'>here</a>
+
+
+# LICENSE
+
+This project is under "Do whatever you want" MIT License => http://www.tldrlegal.com/license/mit-license
