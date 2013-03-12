@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * Unit test for WordsSearchTrie
  * 
- * @author: Parth Parekh (parthparekh [at] gatech [dot] edu)
+ * @author: Parth Parekh
  **/
 public class WordsSearchTrieTest extends WordsSearchTrie {
 	

@@ -9,7 +9,7 @@ import org.junit.Test;
 /**
  * Unit test for TrieNode
  * 
- * @author: Parth Parekh (parthparekh [at] gatech [dot] edu)
+ * @author: Parth Parekh
  **/
 public class TrieNodeTest {
 	

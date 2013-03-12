@@ -9,7 +9,7 @@ import java.util.TreeMap;
  * A node implementation for a simple trie (http://en.wikipedia.org/wiki/Trie)
  * Note: this implementation is not thread safe
  * 
- * @author: Parth Parekh (parthparekh [at] gatech [dot] edu)
+ * @author: Parth Parekh
  **/
 public class TrieNode {
 	// to be set by Trie implementor

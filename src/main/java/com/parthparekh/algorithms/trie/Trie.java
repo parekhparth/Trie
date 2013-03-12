@@ -5,7 +5,7 @@ import java.util.Set;
 /**
  * Interface for Trie - defines the basic functions that a Trie should have
  * 
- * @author: Parth Parekh (parthparekh [at] gatech [dot] edu)
+ * @author: Parth Parekh
  **/
 public interface Trie {
 

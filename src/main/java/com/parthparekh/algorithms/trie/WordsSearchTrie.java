@@ -15,7 +15,7 @@ import java.util.Set;
  * The difference in the implementation of this trie is that there are as many tries as the number of size of words
  * for e.g. words bank and banks will be in two different tries
  *
- * @author: Parth Parekh (parthparekh [at] gatech [dot] edu)
+ * @author: Parth Parekh
  */
 public class WordsSearchTrie implements Trie {
 
