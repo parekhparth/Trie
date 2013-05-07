@@ -34,10 +34,10 @@ public interface Trie {
 	public boolean hasString(String wordString);
 	
 	/*
-	 * returns set of all the characters from trie that follows given prefixString
+	 * returns array of characters from trie that follows given prefixString
 	 * 
 	 * @param prefixString - string that is prefix to all possible characters returned by this function
 	 * @return returns set of all the characters from trie that begin with prefixString, null otherwise 
 	 */
-	public Set<Character> getNextCharacters(String prefixString);
+	public char[] getNextCharacters(String prefixString);
 }

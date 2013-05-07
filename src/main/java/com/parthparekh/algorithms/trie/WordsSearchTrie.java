@@ -51,7 +51,7 @@ public class WordsSearchTrie implements Trie {
     }
 
     @Override
-    public Set<Character> getNextCharacters(String prefixString) {
+    public char[] getNextCharacters(String prefixString) {
         throw new UnsupportedOperationException(
                 "remove string not yet supported for WordsSearchTrie implementation");
     }
