@@ -1,6 +1,5 @@
 package com.parthparekh.algorithms.trie;
 
-import java.util.Set;
 
 /**
  * Interface for Trie - defines the basic functions that a Trie should have
@@ -37,7 +36,7 @@ public interface Trie {
 	 * returns array of characters from trie that follows given prefixString
 	 * 
 	 * @param prefixString - string that is prefix to all possible characters returned by this function
-	 * @return returns set of all the characters from trie that begin with prefixString, null otherwise 
+	 * @return returns array of characters from trie that begin with prefixString, null otherwise 
 	 */
 	public char[] getNextCharacters(String prefixString);
 }
