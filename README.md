@@ -47,6 +47,24 @@ Total 11 matching words found for: a?????o???s
 10. antiprotons
 11. astrologers
 
+and, t?l*t pattern outputs following:
+
+Total 12 words found: 
+
+1. talkiest
+2. tilt
+3. telecast
+4. tolerant
+5. teletypist
+6. talent
+7. telepathist
+8. teleport
+9. tallest
+10. telephonist
+11. telegraphist
+12. talmudist
+
+
 ## Online tool
 
 Above code can be tried online <a href='http://words-search.appspot.com/'>here</a>

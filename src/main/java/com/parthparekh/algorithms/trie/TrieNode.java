@@ -143,6 +143,6 @@ public class TrieNode {
 		if (childrenMap != null) {
 			return toString.append(childrenMap.keySet().toString()).toString();
 		}
-		return toString.append("not yet").toString();
+		return toString.append("no childrens").toString();
 	}
 }
