@@ -77,7 +77,6 @@ public class WordsSearchTrie implements Trie {
      * @param filePath absolute file path of the wordlist file
      */
     public void loadTrie(String filePath) throws IOException {
-
         if (filePath == null || filePath.isEmpty()) {
             throw new IllegalArgumentException("wordlist file path invalid");
         }
@@ -228,7 +227,6 @@ public class WordsSearchTrie implements Trie {
      * prints usage instructions
      */
     private static void usage() {
-
         System.out.println("Usage:");
         System.out.println("\tjava -cp Trie.jar com.parthparekh.algorithms.trie.WordsSearchTrie " +
                                     "<absolute_path_to_wordlist_file> <wildcard_word_to_search>");
