@@ -29,7 +29,7 @@ public class WordsSearchTrie implements Trie {
         char[] wordCharArr = wordString.toCharArray();
         TrieNode tempRoot = trieRoot;
         for (char charValue : wordCharArr) {
-        	tempRoot.addChild(charValue);
+            tempRoot.addChild(charValue);
             tempRoot = tempRoot.getChild(charValue);
         }
         tempRoot.setFinalChar(true);
@@ -84,7 +84,7 @@ public class WordsSearchTrie implements Trie {
         try {
             File file = new File(filePath);
             @SuppressWarnings("resource")
-			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+	    BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
             String word;
             while ((word = reader.readLine()) != null) {
                 assert word != null;
@@ -93,7 +93,7 @@ public class WordsSearchTrie implements Trie {
             }
         }
         catch (IOException ioException) {
-  			throw ioException;
+  	    throw ioException;
         }
     }
 
@@ -220,7 +220,7 @@ public class WordsSearchTrie implements Trie {
     	if(setToAdd!=null && !setToAdd.isEmpty()) {
     		wordSet.addAll(setToAdd);
     	}
-		return wordSet;
+	return wordSet;
     }
     
     /*
